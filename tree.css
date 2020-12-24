@@ -5,8 +5,8 @@ body{
    }
    .container {
      position: absolute;
-     /* left: ; */
-     /* top: 50px; */
+     left: calc((100vw/2 - 50px));
+     top: calc(100vh/4);
      /* margin: auto; */
      /* display: block; */
    }

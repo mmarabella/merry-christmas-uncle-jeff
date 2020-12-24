@@ -1,10 +1,3 @@
-const vw = $(window).width();
-const vh = $(window).height();
-console.log(vw);
-
-$('.container').css('left', (vw/2 - 100));
-$('.container').css('top', (vh/2 - 200));
-
 $('.container').on('mouseover', function(){
     $('.bauble').addClass('light');
     $('.star').addClass('star-light');
