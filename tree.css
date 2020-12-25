@@ -279,6 +279,12 @@ body{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
     }
+
+    .pressie-wiggle {
+      animation: .5s deco  linear infinite;
+      animation-delay: 3s;
+    }
+
    
    .ribbon:after {
      position: absolute;
@@ -303,9 +309,9 @@ body{
    }
    
    @keyframes deco {
-     0% { transform: rotate(5deg)}
-     50%{transform: rotate(-10deg)}
-     100%{transform: rotate(5deg)}
+     0% { transform: rotate(25deg)}
+     50%{transform: rotate(5deg)}
+     100%{transform: rotate(25deg)}
    }
    
    .light {

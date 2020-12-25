@@ -13,6 +13,7 @@ $('.paper').on('click', function(){
 
 $('.pressie').on('click', function() {
   console.log('clicked');
+  $('.pressie').toggleClass('pressie-wiggle');
   $('.bottom-flap').toggleClass('flap-color');
   $('.top-flap').toggleClass('invisible');
   $('.paper').toggleClass('invisible');
